@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    padding 5vh;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 220px 60px 160px 220px;
+    gap: 1rem;
+    background-color #0b5ea7;
+    padding: 1rem;
+    max-width: 50vw;
+}
+
+.first-track,
+.second-track,
+.third-track,
+.fourth-track,
+.fifth-track,
+.sixth-track,
+.seventh-track,
+.eighth-track {
+    border-radius: 6px;
+    padding: 0.9rem;
+}
+
+.first-track {
+    justify-content: center;
+    align-content: center;
+    grid-row: span 2;
+    background-color: #f7ecdf;
+}
+
+.first-img {
+    width: 100%;
+}
+
+.second-track {
+    grid-column: span 2;
+    grid-row: span ;
+    background-color: #754fda;
+}
+
+.second-img {
+    width: 100%;
+}
+
+.third-track {
+    grid-row: span 3;
+    background-color: #d8cdfa;
+    overflow: hidden;
+}
+
+.third-img {
+    width: 190%;
+}
+
+.fourth-track {
+    grid-row: span 2;
+    height: auto;
+    background-color: #fdc96a;
+    overflow: hidden;
+}
+
+.fourth-img {
+    width: 163%;
+}
+
+.fifth-track {
+    grid-row: span 2;
+    background-color: #fdc96a;
+    overflow: hidden;
+}
+
+.fifth-img {
+    width: 100%;
+}
+
+.sixth-track {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    grid-row: span 2;
+    background-color: #fdc96a;
+    align-items: center;
+    justify-content: center;
+}
+
+.sixth-img {
+    width: 130%;
+    height: 50%;
+}
+
+.seventh-track {
+    grid-row: span ;
+    background-color: #754fda;
+}
+
+.seventh-img {
+    width: 100%;
+}
+
+.eighth-track {
+    display: flex;
+    flex-direction: row;
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: #754fda;
+}
+
+.eighth-img {
+    width: 60%;
+    height: 80%;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    justify-self: center;
+}
