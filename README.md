@@ -17,6 +17,12 @@ This project helped me understand how a bento-style layout is structured and how
 The biggest learning point was understanding how grid-based layouts behave, especially when working with columns, rows, spacing, card sizing, and responsive changes.
 I also became more comfortable debugging layout issues directly in the browser and testing changes step by step instead of randomly changing everything at once
 
+My Challenges
+
+The most challenging part of this project was getting the grid layout to match the design.
+I struggled with positioning the cards correctly, especially when some cards needed to be bigger than others. I also had challenges with making the layout responsive on smaller screens without breaking the desktop design.
+Another challenge was working with images inside the cards. Some images needed to be cropped or positioned carefully, which helped me understand how sizing and overflow affect a layout.
+
 Continued Development
 
 I want to keep improving my understanding of:
